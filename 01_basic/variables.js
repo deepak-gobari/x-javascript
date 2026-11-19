@@ -1,31 +1,16 @@
+// VARIABLE
+// variable in javascript can take any data type
 /* const, let, var */
 
-/*
-Rules of naming of variable
-- unique names and case sensitive
-- contain letters, digits, _, and $.
-- begin with a letter, $ and _
-- Reserved words cannot be used.
-*/
-
-
-/* possible but not a good practice to use without variable keywords */
-city = "abcCity";
-
 /* declaration  */
-let a;
-var b; // modern JS: Prefer not to use 'var'
+// modern JS: Prefer not to use 'var'
+var a;
+let b;
 const c = 3;
 /* assignment */
 a = 1;
 b = 2;
 // c = 4; change is not allowed
-
-/*
-don't use var
-Because of issue in block scope and functional scope.
-*/
-
 
 /* example */
 let accountState;
@@ -40,3 +25,6 @@ console.table([
   accountEmail,
   accountID,
 ]);
+
+/*not a good practice*/
+city = "abcCity";

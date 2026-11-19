@@ -1,3 +1,5 @@
+// DATATYPES
+
 /*
 Primitive - Stack
 
@@ -13,20 +15,12 @@ Non Primiive - Heap
 object: Array, Object, Function
 */
 
-let name = "starfall";
-let age = 20;
-let isLoggedIn = false;
+let name = "starfall"; // string
+let age = 20; // number
+let isLoggedIn = false; // boolean
 
 // console.log(typeof undefined) // undefined
 // console.log(typeof null) //object
-
-
-/*  REVISION */
-
-/* Primitive
-call by value
-string, number, bigint, boolean, null, undefined, symbol
-*/
 
 const score = 100; // number
 const scoreValue = 100.222; // number
@@ -39,7 +33,6 @@ let userEmail; //undefined
 const id = Symbol("123");
 const anotherId = Symbol("123");
 // console.log(id == anotherId) //false
-
 
 /* Non-Primitive (referencedd)
 call by reference
@@ -60,7 +53,6 @@ const myFunction = function () {
 // console.log(typeof colors)
 // console.log(typeof obj)
 // console.log(typeof myFunction)
-
 
 
 /* stack heap example */

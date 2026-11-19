@@ -1,6 +1,6 @@
-/* 
-Operators
+// OPERATORS
 
+/* 
 Arithmetic: +, -, *, /, %, **, ++, --, etc.
 Assignment: =, +=, -=, *=, /=, %=, **=, etc.
 Comparison: ==, != , ===, !==, <, >, <=, >=, ?: ternary
@@ -19,43 +19,22 @@ let c = ++a;
 // console.log(a, b, c)
 
 /* Comparision */
-
-// console.log(2 > 1)
-// console.log(2 < 1)
-// console.log(2 >= 1)
-// console.log(2 <= 1)
-// console.log(2 == 1)
-// console.log(2 != 1)
-
-
-// console.log("2" > 1);
-// console.log("02" > 1);
-
-
-/* most of the time avoid these section  */
-// console.log(null > 0)
-// console.log(null < 0)
-// console.log(null == 0)
-// console.log(null >= 0)
-// console.log(null <= 0)
-
-// console.log(undefined > 0)
-// console.log(undefined < 0)
-// console.log(undefined == 0)
-// console.log(undefined >= 0)
-// console.log(undefined <= 0)
-
-/* strict check
-data type compare */
+// true false true false false true
+console.log(2 > 1, 2 < 1, 2 >= 1, 2 <= 1, 2 == 1, 2 != 1);
+// true true
+console.log("2" > 1, "02" > 1);
+// false
+console.log("1" === 1);
+// strict check compare data type
 // console.log("1" === 1);
 
+/* avoid these */
+// false false false true true
+console.log(null > 0, null < 0, null == 0, null >= 0, null <= 0);
+// false false false false false
+console.log(undefined > 0, undefined < 0, undefined == 0, undefined >= 0, undefined <= 0);
 
-/* String Operator
-concatination Operator
-*/
-
+// String and concatination
 let str = "starfall" + " " + "dex";
-// console.log(str);
-// console.log("1" + 2);
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// starfall dex 12 122 32
+console.log(str, "1" + 2, "1" + 2 + 2, 1 + 2 + "2"); 

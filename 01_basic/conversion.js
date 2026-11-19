@@ -1,6 +1,7 @@
+// TYPE CONVERSION
+
 // console.log(typeof 'data');
 // console.log(typeof ('data'));
-
 
 let score = "33";
 let inNumber = Number(score);
@@ -38,8 +39,5 @@ null -> null, undefined -> undefined
 
 /* dont write these type of code */
 /* uranary +, - converts all to 'number' */
-// console.log(+true);
-// console.log(+false);
-// console.log(-true);
-// console.log(-false);
-// console.log(+"");
+// 1 0 -1 -0 0
+console.log(+true, +false, -true, -false, +"");
